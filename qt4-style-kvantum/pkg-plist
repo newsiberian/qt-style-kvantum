@@ -1,0 +1,6 @@
+lib/qt4/plugins/styles/libkvantum.so
+share/kde4/apps/color-schemes/Kvantum.colors
+bin/kvantumpreview
+bin/kvantummanager
+share/applications/kvantummanager.desktop
+share/pixmaps/kvantum.svg
