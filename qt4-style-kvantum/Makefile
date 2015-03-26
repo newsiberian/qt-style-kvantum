@@ -23,6 +23,6 @@ WRKSRC=		${WRKDIR}/${GH_ACCOUNT}-${GH_PROJECT}-${GH_TAGNAME}/${GH_PROJECT}
 USES=		qmake:outsource
 USE_QT4=	gui svg rcc_build uic_build moc_build
 
-USE_LDCONFIG=	${PREFIX}/qt4/plugins/styles
+USE_LDCONFIG=	${PREFIX}/lib/qt4/plugins/styles
 
 .include <bsd.port.mk>
