@@ -1,4 +1,6 @@
-Kvantum (by Pedram Pourang, aka. Tsu Jan <tsujan2000@gmail.com>) 
-is an SVG-based theme engine for Qt4/Qt5 and KDE.
+Kvantum (by Pedram Pourang, aka. Tsu Jan <tsujan2000@gmail.com>) is an
+SVG-based theme engine for Qt4/Qt5 and KDE. It has a default dark theme but
+goes far beyond it: you could make themes with very different looks and feels
+for it and Kvantum will let you control almost every aspect of Qt widgets.
 
 WWW: https://github.com/tsujan/Kvantum
