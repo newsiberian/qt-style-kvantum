@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	kvantum
-DISTVERSION=	0.8.18
+DISTVERSION=	0.8.19
 CATEGORIES=	x11-themes kde
 PKGNAMEPREFIX=	qt4-style-
 
@@ -14,12 +14,12 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 USE_GITHUB=	yes
 GH_ACCOUNT=	tsujan
 GH_PROJECT=	Kvantum
-GH_TAGNAME=	118e58d
+GH_TAGNAME=	bd98e81
 
 OPTIONS_DEFINE=	DOCS EXAMPLES
 
 INSTALLDOCS=	doc/Theme-Making.pdf doc/Theme-Config.pdf doc/Theme-Config \
-			ChangeLog README
+		ChangeLog README
 PORTDOCS=	Theme-Making.pdf Theme-Config.pdf Theme-Config ChangeLog README
 PORTEXAMPLES=	Glassy default.svg
 
@@ -30,7 +30,7 @@ USE_QT4=	gui svg rcc_build uic_build moc_build
 
 .include <bsd.port.options.mk>
 
-do-install:
+post-install:
 .if ${PORT_OPTIONS:MDOCS}
 	@${MKDIR} ${STAGEDIR}${DOCSDIR}
 .for i in ${INSTALLDOCS}
