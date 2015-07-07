@@ -1,0 +1,5 @@
+bin/kvantummanager
+bin/kvantumpreview
+%%QT_PLUGINDIR%%/styles/%%QT_LIBDIR%%kvantum.so
+share/applications/kvantummanager.desktop
+share/pixmaps/kvantum.svg

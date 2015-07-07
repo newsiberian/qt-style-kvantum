@@ -1,0 +1,4 @@
+%%QT_BINDIR%%/kvantummanager
+%%QT_BINDIR%%/kvantumpreview
+share/applications/kvantummanager.desktop
+share/pixmaps/kvantum.svg
