@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	kvantum
-DISTVERSION=	0.8.22
+DISTVERSION=	0.8.23
 CATEGORIES=	x11-themes
 
 MAINTAINER=	d.akiyakov@gmail.com
@@ -19,12 +19,12 @@ OPTIONS_DEFAULT=	QT4 QT4_MANAGER
 QT1_DESC=	Qt: additional support
 QT4_MANAGER_DESC=	with engine manager for Qt 4
 
-QT4_RUN_DEPENDS=	qt4-style-kvantum>=${DISTVERSION}:/home/sohaam/tmp/kvantum/port/kvantum-qt4
-QT4_MANAGER_RUN_DEPENDS=	qt4-kvantummanager>=${DISTVERSION}:/home/sohaam/tmp/kvantum/port/kvantummanager-qt4
-QT5_RUN_DEPENDS=	qt5-style-kvantum>=${DISTVERSION}:/home/sohaam/tmp/kvantum/port/kvantum-qt5
-#QT4_RUN_DEPENDS=	qt4-style-kvantum>=${DISTVERSION}:${PORTSDIR}/x11-themes/kvantum-qt4
-#QT4_MANAGER_RUN_DEPENDS= qt4-kvantummanager>=${DISTVERSION}:${PORTSDIR}/x11-themes/kvantummanager-qt4
-#QT5_RUN_DEPENDS=	qt5-style-kvantum>=${DISTVERSION}:${PORTSDIR}/x11-themes/kvantum-qt5
+#QT4_RUN_DEPENDS=	qt4-style-kvantum>=${DISTVERSION}:/home/sohaam/tmp/kvantum/port/kvantum-qt4
+#QT4_MANAGER_RUN_DEPENDS=	qt4-kvantummanager>=${DISTVERSION}:/home/sohaam/tmp/kvantum/port/kvantummanager-qt4
+#QT5_RUN_DEPENDS=	qt5-style-kvantum>=${DISTVERSION}:/home/sohaam/tmp/kvantum/port/kvantum-qt5
+QT4_RUN_DEPENDS=	qt4-style-kvantum>=${DISTVERSION}:${PORTSDIR}/x11-themes/kvantum-qt4
+QT4_MANAGER_RUN_DEPENDS= qt4-kvantummanager>=${DISTVERSION}:${PORTSDIR}/x11-themes/kvantummanager-qt4
+QT5_RUN_DEPENDS=	qt5-style-kvantum>=${DISTVERSION}:${PORTSDIR}/x11-themes/kvantum-qt5
 
 .else  # !defined(KVANTUM_SLAVE)
 
@@ -33,7 +33,7 @@ LICENSE=	GPLv3
 USE_GITHUB=	yes
 GH_ACCOUNT=	tsujan
 GH_PROJECT=	Kvantum
-GH_TAGNAME=	ad91f02
+GH_TAGNAME=	7462d46
 
 #INSTALLDOCS=	doc/Theme-Making.pdf doc/Theme-Config.pdf doc/Theme-Config \
 #		ChangeLog README
